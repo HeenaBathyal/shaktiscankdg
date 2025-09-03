@@ -1,0 +1,29 @@
+name: shaktiscan0
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  mobile_scanner: ^7.0.1       # Camera and quick scan functionality
+  wifi_scan: ^0.4.1+2          # WiFi and network scanning
+  geolocator: ^14.0.2          # Location services for SOS mode
+  url_launcher: ^6.2.2         # Open SMS, email, or dialer for SOS alerts
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
