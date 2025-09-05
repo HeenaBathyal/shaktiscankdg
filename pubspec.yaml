@@ -18,6 +18,11 @@ dependencies:
   geolocator: ^14.0.2          # Location services for SOS mode
   url_launcher: ^6.2.2         # Open SMS, email, or dialer for SOS alerts
 
+  camera: ^0.10.5+5            # For live camera preview
+  tflite_flutter: ^0.11.0      # TensorFlow Lite inference
+  image: ^4.1.3                # Image processing for model input
+  permission_handler: ^11.0.1  # Runtime permissions
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -25,5 +30,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
   assets:
     - assets/logo.png
+    - assets/model_unquant.tflite
+    - assets/labels.txt
