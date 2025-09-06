@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'security_features_page.dart';
+import 'security_features_page.dart';  // Import the new Security Features page
 import 'sos_emergency_page.dart';
 
 class HomePage extends StatelessWidget {
@@ -210,6 +210,7 @@ class HomePage extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(35))),
                     onPressed: () {
+                      // Navigate to the new SecurityFeaturesPage
                       Navigator.of(context).push(MaterialPageRoute(
                           builder: (_) => const SecurityFeaturesPage()));
                     },
