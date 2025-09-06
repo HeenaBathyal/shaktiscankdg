@@ -16,7 +16,8 @@ dependencies:
   mobile_scanner: ^7.0.1       # Camera and quick scan functionality
   wifi_scan: ^0.4.1+2          # WiFi and network scanning
   geolocator: ^14.0.2          # Location services for SOS mode
-  url_launcher: ^6.2.2         # Open SMS, email, or dialer for SOS alerts
+  url_launcher: ^6.2.2
+  shared_preferences: ^2.1.1   # Open SMS, email, or dialer for SOS alerts
 
   camera: ^0.10.5+5            # For live camera preview
   tflite_flutter: ^0.11.0      # TensorFlow Lite inference
